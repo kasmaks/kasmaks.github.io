@@ -3,24 +3,26 @@ body {
 }
 
 .rows-container {
-	height: 100vh;
+	max-height: 100vh;
 	display: flex;
 	flex-direction: column;
   }
   
 .row {
-	height: 50vh;
+	max-height: 48vh;
+	padding: 0.5vh;
 	display: flex;
 	justify-content: space-around;
 }
 
 img {
-	max-height: 50vh;
+	max-height: 48vh;
 	width: 100%;
 }
 
 .rows-wrapper {
-	height: 100vh;
+	max-height: 100vh;
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
+	overflow-y: hidden;
 }
